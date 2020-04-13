@@ -47,6 +47,8 @@ public class Demo3 {
             BufferedReader bufferedReader =
             new BufferedReader(new InputStreamReader(request.getInputStream()));
             body = IOUtils.toString(bufferedReader);
+//这是我测试的拉取
+            System.out.println("===================");
             System.out.println("===================");
         } catch (IOException e) {
             System.out.println("读取数据失败！");
