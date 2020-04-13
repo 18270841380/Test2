@@ -17,6 +17,7 @@ public class Demo1 {
         String age = request.getParameter("age");
         String ip = request.getRemoteAddr();
         System.out.println("ip>>>>>>"+ip);
+        System.out.println("====================");
         return name+","+age;
     }
 
